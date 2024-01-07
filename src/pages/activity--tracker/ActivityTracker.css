@@ -1,0 +1,80 @@
+.activity--tracker {
+  background-color: palevioletred;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+.activity-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: flex-start; /* Align items at the start of the flex container */
+}
+
+.activity-form input {
+  padding: 8px;
+  flex: 1; /* Allow the input to grow and take remaining space */
+}
+
+.activity-form button {
+  padding: 8px 15px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: auto; /* Allow the button to size based on content */
+}
+
+
+.activity-list {
+  text-align: center;
+  h2 {
+    color: #333;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 8px;
+  }
+}
+
+.totals,
+.extras {
+  text-align: center;
+}
+
+.sedentary-reminder,
+.customizable-goals,
+.social-sharing {
+  margin-top: 20px;
+}
+
+.sedentary-reminder p,
+.social-sharing p {
+  margin: 0;
+}
+
+.sign-out {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+  padding: 8px 15px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
